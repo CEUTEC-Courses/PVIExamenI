@@ -2,10 +2,10 @@
 
 namespace ExamenPIV.Data
 {
-    public class ProyectoPivContext: DbContext
+    public class ExamenIPivContext: DbContext
     {
-        public ProyectoPivContext() { }
-        public ProyectoPivContext(string connectionName):base(connectionName)
+        public ExamenIPivContext() { }
+        public ExamenIPivContext(string connectionName):base(connectionName)
         {
 
         }
